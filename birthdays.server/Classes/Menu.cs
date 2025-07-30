@@ -27,6 +27,7 @@ public static class Menu
         }
 
         Console.WriteLine();
+        Console.WriteLine("Введите X чтобы выйти из программы.");
     }
 
     private static void WriteAllBirthdays()
