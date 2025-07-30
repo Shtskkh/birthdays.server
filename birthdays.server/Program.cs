@@ -1,6 +1,7 @@
 ﻿using birthdays.server.Classes;
 
 Menu.Options[1].Action.Invoke();
+Menu.WriteMenu();
 
 ConsoleKeyInfo keyInfo;
 do
@@ -11,9 +12,11 @@ do
     {
         case ConsoleKey.D1:
             Menu.Options[0].Action.Invoke();
+            Menu.WriteMenu();
             break;
         case ConsoleKey.D2:
             Menu.Options[1].Action.Invoke();
+            Menu.WriteMenu();
             break;
         case ConsoleKey.D3:
             Menu.Options[2].Action.Invoke();
